@@ -152,9 +152,9 @@ xgbr_random = RandomizedSearchCV(estimator = xgbr,
 ![image](https://github.com/user-attachments/assets/0f986809-11ef-4146-8b80-4b53cb267a0f)
 
 
+## **Conclusions:**
 
-
-
+A linear regression model was developed to forecast bike rental demand. By analyzing historical data and incorporating features such as hours, holidays, weekdays, rainfall, and humidity, we were able to optimize resource allocation within the bike-sharing system. After extensive data wrangling and feature engineering, implemented and tuned multiple regression models. The Random Forest model achieved an R² of 0.923 with an MSE of 32,181.985, an RMSE of 179.393, and an MAE of 101.686. The XGBoost model, after hyperparameter tuning, achieved an R² of 0.953 with an MSE of 19,620.848, an RMSE of 140.074, and an MAE of 78.918. These improvements in model performance are expected to enhance the overall efficiency and usability of Seoul's bike-sharing system, ensuring better bike availability at high-demand locations and times, reducing operational costs, and promoting sustainable urban transportation.
 
 
 
